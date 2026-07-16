@@ -150,7 +150,7 @@ export default function App() {
           <span className="material-symbols-outlined text-primary fill" style={{ fontSize: '28px', color: 'var(--color-primary-container)' }}>
             menu_book
           </span>
-          <h1 className="header-title">Rayuela Curricular</h1>
+          <h1 className="header-title">Rayuela curricular</h1>
           <span className="badge-elite">Ciclo III (Grados 6°-7°)</span>
         </div>
         <div style={{ display: 'flex', gap: '16px', alignItems: 'center' }}>
@@ -179,7 +179,7 @@ export default function App() {
               color: 'var(--color-text-body)'
             }}
           >
-            Reiniciar Progreso
+            Reiniciar progreso
           </button>
         </div>
       </header>
@@ -188,7 +188,7 @@ export default function App() {
       <main className="main-layout">
         {/* LEFT COLUMN: CONTROL PANEL */}
         <aside className="control-panel">
-          <h2 className="panel-title">Configuración Pedagógica</h2>
+          <h2 className="panel-title">Configuración pedagógica</h2>
 
           {/* 1. Etapa de Respuesta Educativa */}
           <div className="filter-group">
@@ -294,7 +294,7 @@ export default function App() {
           {/* DASHBOARD METRICS */}
           <div className="dashboard-grid">
             <div className="dashboard-card" style={{ cursor: 'pointer' }} onClick={() => setActiveTab('lenguaje-ebc')}>
-              <h3 className="card-title">Progreso Lenguaje</h3>
+              <h3 className="card-title">Progreso lenguaje</h3>
               <div className="card-metric">{progressLenguaje}%</div>
               <div className="progress-bar-container">
                 <div className="progress-bar-fill" style={{ width: `${progressLenguaje}%` }}></div>
@@ -305,7 +305,7 @@ export default function App() {
             </div>
 
             <div className="dashboard-card" style={{ cursor: 'pointer' }} onClick={() => setActiveTab('matematicas-ebc')}>
-              <h3 className="card-title">Progreso Matemáticas</h3>
+              <h3 className="card-title">Progreso matemáticas</h3>
               <div className="card-metric">{progressMatematicas}%</div>
               <div className="progress-bar-container">
                 <div className="progress-bar-fill" style={{ width: `${progressMatematicas}%` }}></div>
@@ -316,7 +316,7 @@ export default function App() {
             </div>
 
             <div className="dashboard-card" style={{ cursor: 'pointer' }} onClick={() => setActiveTab('habilidades')}>
-              <h3 className="card-title">Habilidades Socioemocionales</h3>
+              <h3 className="card-title">Habilidades socioemocionales</h3>
               <div className="card-metric">{progressHabilidades}%</div>
               <div className="progress-bar-container">
                 <div className="progress-bar-fill" style={{ width: `${progressHabilidades}%` }}></div>
@@ -333,22 +333,22 @@ export default function App() {
               {/* TABS */}
               <div className="tabs-navigation">
                 <button className={`tab-btn ${activeTab === 'lenguaje' ? 'active' : ''}`} onClick={() => setActiveTab('lenguaje')}>
-                  Cuadrícula Lenguaje
+                  Cuadrícula lenguaje
                 </button>
                 <button className={`tab-btn ${activeTab === 'lenguaje-ebc' ? 'active' : ''}`} onClick={() => setActiveTab('lenguaje-ebc')}>
-                  EBC Lenguaje (Checklist)
+                  EBC lenguaje (checklist)
                 </button>
                 <button className={`tab-btn ${activeTab === 'matematicas' ? 'active' : ''}`} onClick={() => setActiveTab('matematicas')}>
-                  Cuadrícula Matemáticas
+                  Cuadrícula matemáticas
                 </button>
                 <button className={`tab-btn ${activeTab === 'matematicas-ebc' ? 'active' : ''}`} onClick={() => setActiveTab('matematicas-ebc')}>
-                  EBC Matemáticas (Checklist)
+                  EBC matemáticas (checklist)
                 </button>
                 <button className={`tab-btn ${activeTab === 'habilidades' ? 'active' : ''}`} onClick={() => setActiveTab('habilidades')}>
-                  Habilidades para la Vida
+                  Habilidades para la vida
                 </button>
                 <button className={`tab-btn ${activeTab === 'contextual' ? 'active' : ''}`} onClick={() => setActiveTab('contextual')}>
-                  Riesgos del Entorno
+                  Riesgos del entorno
                 </button>
               </div>
             </div>
