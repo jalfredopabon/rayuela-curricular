@@ -1,0 +1,46 @@
+{
+  "Pensamiento numérico y sistemas numéricos": [
+    "Reconozco significados del número en diferentes contextos (medición, conteo, comparación, codificación, localización entre otros).",
+    "Describo, comparo y cuantifico situaciones con números, en diferentes contextos y con diversas representaciones.",
+    "Describo situaciones que requieren el uso de medidas relativas.",
+    "Describo situaciones de medición utilizando fracciones comunes.",
+    "Uso representaciones –principalmente concretas y pictóricas– para explicar el valor de posición en el sistema de numeración decimal.",
+    "Uso representaciones –principalmente concretas y pictóricas– para realizar equivalencias de un número en las diferentes unidades del sistema decimal.",
+    "Reconozco propiedades de los números (ser par, ser impar, etc.) y relaciones entre ellos (ser mayor que, ser menor que, ser múltiplo de, ser divisible por, etc.) en diferentes contextos.",
+    "Resuelvo y formulo problemas en situaciones aditivas de composición y de transformación.",
+    "Resuelvo y formulo problemas en situaciones de variación proporcional",
+    "Uso diversas estrategias de cálculo (especialmente cálculo mental) y de estimación para resolver problemas en situaciones aditivas y multiplicativas",
+    "Identifico, si a la luz de los datos de un problema, los resultados obtenidos son o no razonables.",
+    "Identifico regularidades y propiedades de los números utilizando diferentes instrumentos de cálculo (calculadoras, ábacos, bloques multibase, etc."
+  ],
+  "Pensamiento espacial y sistemas geométricos": [
+    "Represento objetos tridimensionales desde diferentes posiciones y vistas.",
+    "Identifico y describo figuras y cuerpos generados por cortes rectos y transversales de objetos tridimensionales",
+    "Clasifico polígonos en relación con sus propiedades.",
+    "Predigo y comparo los resultados de aplicar transformaciones rígidas (traslaciones, rotaciones, reflexiones) y homotecias (ampliaciones y reducciones) sobre figuras bidimensionales en situaciones matemáticas y en el arte.",
+    "Resuelvo y formulo problemas que involucren relaciones y propiedades de semejanza y congruencia usando representaciones visuales.",
+    "Resuelvo y formulo problemas usando modelos geométricos.",
+    "Identifico características de localización de objetos en sistemas de representación cartesiana y geográfica."
+  ],
+  "Pensamiento métrico y sistemas de medida": [
+    "Utilizo técnicas y herramientas para la construcción de figuras planas y cuerpos con medidas dadas.",
+    "Resuelvo y formulo problemas que involucren factores escalares (diseño de maquetas, mapas).",
+    "Calculo áreas y volúmenes a través de composición y descomposición de figuras y cuerpos.",
+    "Identifico relaciones entre distintas unidades utilizadas para medir cantidades de la misma magnitud.",
+    "Resuelvo y formulo problemas que requieren técnicas de estimación."
+  ],
+  "Pensamiento variacional y sistemas algebraicos y analíticos": [
+    "Describo y represento situaciones de variación relacionando diferentes representaciones (diagramas, expresiones verbales generalizadas y tablas).",
+    "Reconozco el conjunto de valores de cada una de las cantidades variables ligadas entre sí en situaciones concretas de cambio (variación).",
+    "Analizo las propiedades de correlación positiva y negativa entre variables, de variación lineal o de proporcionalidad directa y de proporcionalidad inversa en contextos aritméticos y geométricos.",
+    "Utilizo métodos informales (ensayo y error, complementación) en la solución de ecuaciones.",
+    "Identifico las características de las diversas gráficas cartesianas (de puntos, continuas, formadas por segmentos, etc.) en relación con la situación que representan"
+  ],
+  "Pensamiento aleatorio y sistemas de datos": [
+    "Comparo e interpreto datos provenientes de diversas fuentes (prensa, revistas, televisión, experimentos, consultas, entrevistas",
+    "Reconozco la relación entre un conjunto de datos y su representación.",
+    "Interpreto, produzco y comparo representaciones gráficas adecuadas para presentar diversos tipos de datos. (diagramas de barras, diagramas circulares.)",
+    "Uso medidas de tendencia central (media, mediana, moda) para interpretar comportamiento de un conjunto de datos.",
+    "Uso modelos (diagramas de árbol, por ejemplo) para discutir y predecir posibilidad de ocurrencia de un evento."
+  ]
+}
