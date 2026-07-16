@@ -108,8 +108,8 @@ header {
   border-bottom: 1px solid var(--color-border-light);
   padding: 16px 72px;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
+  gap: 12px;
   position: sticky;
   top: 0;
   z-index: 50;
@@ -118,7 +118,22 @@ header {
 @media (max-width: 1024px) {
   header {
     padding: 16px 24px;
+    gap: 8px;
   }
+}
+
+.header-top-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.header-bottom-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }
 
 .header-brand {
@@ -134,15 +149,73 @@ header {
   font-weight: bold;
 }
 
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.status-indicator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background-color: var(--color-surface-muted);
+}
+
+.status-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #0A5C4E;
+}
+
+.settings-icon {
+  color: var(--color-text-muted);
+  cursor: pointer;
+  transition: var(--transition-organic);
+}
+
+.settings-icon:hover {
+  color: var(--color-primary-container);
+}
+
+.reset-btn {
+  background: none;
+  border: 1px solid var(--color-border-light);
+  padding: 6px 12px;
+  border-radius: var(--rounded-md);
+  font-family: var(--font-sans);
+  font-size: 12px;
+  cursor: pointer;
+  color: var(--color-text-body);
+  transition: var(--transition-organic);
+}
+
+.reset-btn:hover {
+  background-color: var(--color-surface-hover);
+  border-color: var(--color-primary-vibrant);
+  color: var(--color-primary-container);
+}
+
 .badge-elite {
   font-size: 11px;
   font-weight: 700;
   letter-spacing: 0.05em;
-  padding: 4px 12px;
-  border-radius: 99px;
+  padding: 6px 14px;
+  border-radius: var(--rounded-md);
   background-color: var(--color-surface-muted);
   color: var(--color-primary-container);
   text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.planning-mode-text {
+  font-size: 12px;
+  color: var(--color-text-muted);
+  font-weight: 500;
 }
 
 /* Control Panel (Sidebar) */
@@ -240,7 +313,7 @@ header {
   font-size: 13px;
   font-weight: 500;
   cursor: pointer;
-  border-radius: 6px;
+  border-radius: var(--rounded-md);
   transition: var(--transition-organic);
 }
 
@@ -271,7 +344,7 @@ header {
   top: 4px;
   bottom: 4px;
   background-color: var(--color-primary-container);
-  border-radius: 6px;
+  border-radius: var(--rounded-md);
   transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
   z-index: 1;
 }

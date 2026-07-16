@@ -146,41 +146,26 @@ export default function App() {
     <div className="app-container">
       {/* HEADER */}
       <header>
-        <div className="header-brand">
-          <span className="material-symbols-outlined text-primary fill" style={{ fontSize: '28px', color: 'var(--color-primary-container)' }}>
-            menu_book
-          </span>
-          <h1 className="header-title">Rayuela curricular</h1>
-          <span className="badge-elite">Ciclo III (Grados 6°-7°)</span>
-        </div>
-        <div style={{ display: 'flex', gap: '16px', alignItems: 'center' }}>
-          <div style={{ display: 'flex', gap: '6px', alignItems: 'center' }}>
-            <span style={{
-              display: 'inline-block',
-              width: '8px',
-              height: '8px',
-              borderRadius: '50%',
-              backgroundColor: '#22C55E',
-              boxShadow: '0 0 0 3px rgba(34,197,94,0.25)'
-            }}></span>
-            <span style={{ fontSize: '13px', color: 'var(--color-text-body)', fontWeight: 500 }}>
-              Modo: Planificación Docente
+        <div className="header-top-row">
+          <div className="header-brand">
+            <span className="material-symbols-outlined text-primary fill" style={{ fontSize: '28px', color: 'var(--color-primary-container)' }}>
+              menu_book
             </span>
+            <h1 className="header-title">Rayuela curricular</h1>
           </div>
-          <button 
-            onClick={handleResetProgress}
-            style={{ 
-              background: 'none', 
-              border: '1px solid var(--color-border-light)', 
-              padding: '6px 12px', 
-              borderRadius: 'var(--rounded-md)',
-              fontSize: '12px',
-              cursor: 'pointer',
-              color: 'var(--color-text-body)'
-            }}
-          >
-            Reiniciar progreso
-          </button>
+          <div className="header-actions">
+            <div className="status-indicator">
+              <span className="status-dot"></span>
+            </div>
+            <span className="material-symbols-outlined settings-icon">settings</span>
+            <button onClick={handleResetProgress} className="reset-btn">
+              Reiniciar progreso
+            </button>
+          </div>
+        </div>
+        <div className="header-bottom-row">
+          <span className="badge-elite">Ciclo III (Grados 6°-7°)</span>
+          <span className="planning-mode-text">Modo: Planificación docente</span>
         </div>
       </header>
 
